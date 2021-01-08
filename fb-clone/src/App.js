@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar'
 import Feed from './Feed'
+import Widgets from "./Widgets"
 function App() {
   return (
     //BEM naming convention-> Helps build app and scale up
@@ -10,7 +11,7 @@ function App() {
       <div className="app__body">
         <Sidebar />
         <Feed/>
-        {/* Widgets*/}      
+        <Widgets/>     
       </div>
 
     </div>
